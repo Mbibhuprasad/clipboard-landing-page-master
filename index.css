@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500&family=Inter:wght@400;700&family=Karla&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@400;700&family=Poppins:wght@400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ios-btn: hsl(171, 66%, 44%);
+    --mac-btn: hsl(233, 100%, 69%);
+    --ios-hover: hsl(171, 58%, 60%);
+    --mac-hover: hsl(233, 74%, 73%);
+    --paragraf: hsl(201, 11%, 66%);
+    --heading: hsl(210, 10%, 33%);
+    --white: white;
+    --footer: hsl(200, 8%, 93%);
+}
+
+body {
+    background-color: var(--white);
+    font-size: 18px;
+    font-family: Bai Jamjuree;
+    background: url("images/bg-header-desktop.png") no-repeat top;
+    background-size: contain;
+}
+
+.heading-content {
+    text-align: center;
+}
+
+.copyright {
+    width: 4.5rem;
+    margin: 3.5rem auto 1.5rem auto;
+}
+
+.copyright img {
+    width: 100%;
+}
+
+.heading-content h1 {
+    font-size: 2rem;
+    color: var(--heading);
+}
+
+.heading-content p {
+    font-size: 0.9rem;
+    width: 38%;
+    margin: 0.8rem auto;
+    line-height: 1.5rem;
+    color: var(--paragraf);
+}
+
+.download {
+    display: flex;
+    margin: 2rem auto 4.5rem auto;
+    justify-content: center;
+}
+
+.download .ios-btn:hover {
+    cursor: pointer;
+    background-color: var(--ios-hover);
+}
+
+.download .mac-btn:hover {
+    cursor: pointer;
+    background-color: var(--mac-hover);
+}
+
+.ios-btn {
+    display: block;
+    padding: 0.8rem;
+    margin-right: 1rem;
+    width: 10rem;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: var(--ios-btn);
+    color: var(--white);
+}
+
+.mac-btn {
+    display: block;
+    padding: 0.8rem;
+    width: 10rem;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: var(--mac-btn);
+    color: var(--white)
+}
+
+.first-content > h2{
+    font-size: 1.6rem;
+    color: var(--heading);
+    text-align: center;
+}
+
+.first-content > p{
+    font-size: 0.9rem;
+    width: 38%;
+    margin: 0.8rem auto;
+    line-height: 1.5rem;
+    text-align: center;
+    color: var(--paragraf);
+}
+
+.desktop-content {
+    display: flex;
+    margin-top: 4rem;
+
+}
+
+.desktop-img {
+    width: 35rem;
+    margin: auto 3rem auto 6rem;
+}
+
+.desktop-img img {
+    width: 100%;
+}
+
+.desktop-feature {
+    margin-top: 1rem;
+}
+
+.desktop-feature h2 {
+    font-size: 1rem;
+    color: var(--heading);
+}
+
+.desktop-feature p{
+    font-size: 0.9rem;
+    width: 60%;
+    margin: 0.5rem 0;
+    line-height: 1.5rem;
+    color: var(--paragraf);
+}
+
+.desktop-feature article {
+    margin: 1rem;
+}
+
+.secnd-content {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.secnd-content h2{
+    font-size: 1.6rem;
+    color: var(--heading);
+}
+
+.secnd-content p {
+    font-size: 0.9rem;
+    width: 40%;
+    margin: 0.8rem auto;
+    line-height: 1.5rem;
+    color: var(--paragraf);
+}
+
+.macbook-imag {
+    width: 50%;
+    margin: 3rem auto;
+}
+
+.macbook-imag img {
+    width: 100%;
+}
+
+.third-content {
+    text-align: center;
+}
+
+.third-content > h2 {
+    font-size: 1.6rem;
+    color: var(--heading);
+}
+
+.third-content > p {
+    font-size: 0.9rem;
+    width: 40%;
+    margin: 0.8rem auto;
+    line-height: 1.5rem;
+    color: var(--paragraf);
+}
+
+.third-feature {
+    display: flex;
+    margin: 3rem 4rem;
+    text-align: center;
+}
+
+.third-feature article {
+    width: 20%;
+    margin: auto;
+}
+
+.third-feature img {
+    width: 1.6rem;
+    display: block;
+    margin: 1rem auto;
+}
+
+.third-feature h2 {
+    font-size: 1rem;
+    color: var(--heading);
+}
+
+.third-feature p {
+    font-size: 0.8rem;
+    margin: 0.8rem auto;
+    line-height: 1.5rem;
+    color: var(--paragraf);
+}
+
+.company-logo {
+    display: flex;
+    margin: 4rem;
+    justify-content: space-around;
+}
+
+.company-logo img {
+    display: block;
+    width: 9rem;
+    height: 2.4rem;
+}
+
+.forth-content {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.forth-content h1 {
+    font-size: 2rem;
+    color: var(--heading);
+}
+
+.forth-content p {
+    font-size: 0.9rem;
+    width: 40%;
+    margin: 0.8rem auto;
+    line-height: 1.5rem;
+    color: var(--paragraf);
+}
+
+footer {
+    background-color: var(--footer);
+    padding: 2rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-block {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 2rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.left-block a {
+    display: block;
+    color: var(--heading);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.left-block a:hover {
+    cursor: pointer;
+    color: var(--ios-btn);
+}
+
+.right-block {
+    display: flex;
+}
+
+.right-block i {
+    font-size: 1.6rem;
+    margin: auto 1rem;
+}
+
+.right-block i:hover {
+    color: var(--ios-btn);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:500px) {
+
+    body {
+       background-image: url("images/bg-header-mobile.png");
+    }
+    main,header {
+        padding: 2rem;
+    }
+
+    .download {
+        flex-direction: column;
+        width: 10rem;
+        margin: 2rem auto;
+    }
+
+    .ios-btn {
+        margin: 0 auto 1rem auto;
+    }
+
+    .container p {
+        width: 100%;
+    }
+
+    .desktop-content {
+        flex-direction: column;
+    }
+
+    .desktop-feature p{
+        margin: 0.5rem auto;
+    }
+
+    .desktop-img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .desktop-feature {
+        text-align: center;
+    }
+
+    .macbook-imag {
+        width: 80%;
+    }
+    
+    .third-feature {
+        flex-direction: column;
+    }
+    .third-feature article {
+        width: 100%;
+    }
+
+    .company-logo {
+        flex-direction: column;
+    }
+
+    .company-logo img {
+        margin: 1rem auto;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .left-block {
+        flex-direction: column;
+        margin-bottom: 0.8rem;
+    }
+
+    .left-block a {
+        margin: 0.8rem auto;
+    }
+
+}
